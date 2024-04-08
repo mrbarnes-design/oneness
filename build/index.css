@@ -1,0 +1,57 @@
+body {
+    color: #2f5572;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.site-header {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(47, 85, 114, .3)
+}
+
+.site-header__btn-container {
+    float: right;
+}
+
+.primary-nav--pull-right {
+    float: right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #2f5572;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 1000px;
+}
+
+.site-header__logo {
+    position: absolute;
+}
